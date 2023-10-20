@@ -6,8 +6,8 @@ function Data() {
       <p className='home__description'>
         curious programmer who is highly passionate and dedicated to his work.
       </p>
-      <a href='#contact' className='button button--flex'>
-        Say Hello
+      <a href='mailto:suvhan13@gmail.com' className='button button--flex'>
+        email me
         <svg
           className='button__icon'
           xmlns='http://www.w3.org/2000/svg'

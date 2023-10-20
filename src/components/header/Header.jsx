@@ -42,7 +42,7 @@ function Header() {
                 </Link>
               </li>
               <li className='nav__item'>
-                <Link to='porfolio' className='nav__link'>
+                <Link to='portfolio' className='nav__link'>
                   <i className='uil uil-scenery nav__icon'></i>
                   Porfolio
                 </Link>

@@ -8,7 +8,7 @@
   width: 350px;
   border-radius: 1.5rem;
   justify-self: center;
-  filter: grayscale(1);
+  /* filter: grayscale(1); */
 }
 
 .about__info {

@@ -60,7 +60,7 @@
   justify-self: center;
   width: 300px;
   height: 300px;
-  filter: grayscale(1);
+  /* filter: grayscale(1); */
 }
 
 .home__scroll {
@@ -150,4 +150,12 @@
     width: 180px;
     height: 180px;
   }
+}
+
+/* portfolio cards  */
+.home_portfolio {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
