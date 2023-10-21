@@ -33,3 +33,17 @@
 .projects .about__subtitle:hover {
   text-decoration-line: underline;
 }
+
+/*=============== BREAKPOINTS ===============*/
+@media screen and (max-width: 576px) {
+  .home_portfolio a {
+    width: 100%;
+  }
+  .home_portfolio a .portfolio__card {
+    width: 100%;
+  }
+  .projects {
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+  }
+}

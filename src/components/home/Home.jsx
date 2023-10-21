@@ -16,13 +16,12 @@ const data = [
 
 function Home() {
   return (
-    <section className='home section' id='home'>
+    <section className='home' id='home'>
       <div className='home__container container grid'>
         <div className='home__content grid'>
           <Social />
           <div className='home__img' title='This is Subhan'></div>
           <Data />
-          <input type='file' name='' id='' />
         </div>
         {/* <ScrollDown /> */}
       </div>
