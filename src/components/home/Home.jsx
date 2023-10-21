@@ -22,6 +22,7 @@ function Home() {
           <Social />
           <div className='home__img' title='This is Subhan'></div>
           <Data />
+          <input type='file' name='' id='' />
         </div>
         {/* <ScrollDown /> */}
       </div>
