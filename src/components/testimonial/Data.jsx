@@ -1,27 +1,43 @@
-import Image1 from '../../assests/testimonial1.png';
-import Image2 from '../../assests/testimonial2.png';
-import Image3 from '../../assests/testimonial3.png';
+import traveling from '../../assests/traveling.jpg';
+import reading from '../../assests/reading.jpg';
+import learning from '../../assests/learning.webp';
+import typing from '../../assests/typing.jpg';
+import coding from '../../assests/coding.png';
+import candy from '../../assests/candy.avif';
+import carrom from '../../assests/carrom.jpg';
+import kite from '../../assests/kite.jpg';
+import rubix from '../../assests/rubx.jpg';
+import ludo from '../../assests/ludo.jpg';
 
 export const Data = [
   {
     id: 1,
-    image: Image1,
-    title: 'Jhon Doe',
-    description:
-      'A really good job, all aspects of the project were followed step by step and with good results.',
+    image: [traveling, coding, learning, typing, reading],
+    title: 'Hobbies',
+    description: [
+      'travelling',
+      'coding',
+      'learning',
+      'typing',
+      'reading instruction',
+    ],
   },
   {
     id: 2,
-    image: Image2,
-    title: 'Harry Clinton',
-    description:
-      'A really good job, all aspects of the project were followed step by step and with good results.',
+    image: [candy, ludo, carrom, kite, rubix],
+    title: 'favorite Games',
+    description: ['candy crush saga', 'ludo', 'carrom', 'kite', 'rubix cube'],
   },
   {
     id: 3,
-    image: Image3,
-    title: 'Sara Cill',
-    description:
-      'A really good job, all aspects of the project were followed step by step and with good results.',
+    image: [candy, ludo, carrom, kite, rubix],
+    title: 'favorite Cartoons',
+    description: [
+      'shinchan 😍',
+      'perman',
+      'oggy and the cockroaches',
+      'doraemon',
+      'ninja hattori',
+    ],
   },
 ];

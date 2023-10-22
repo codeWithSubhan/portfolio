@@ -7,7 +7,7 @@ import './home.css';
 
 import js from '../../assests/js.png';
 import htmlcss from '../../assests/htmcss.jpg';
-import reactjs from '../../assests/react.svg';
+import reactjs from '../../assests/react.png';
 const data = [
   { image: htmlcss, title: 'Html/Css', code: '' },
   { image: js, title: 'Javascript', code: '' },

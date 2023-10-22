@@ -36,10 +36,20 @@ function Testimonial() {
         >
           {Data.map(({ id, image, title, description }) => (
             <SwiperSlide className='testimonial__card' key={id}>
-              <img src={image} alt='' className='testimonial__img' />
+              <div className='image__container'>
+                {image?.map((img, i) => (
+                  <img src={img} alt='' className='testimonial__img' key={i} />
+                ))}
+              </div>
 
               <h3 className='testimonial__name'>{title}</h3>
-              <p className='testimonial__description'>{description}</p>
+              <div className='testimonial__description'>
+                <ul>
+                  {description?.map((item, i) => (
+                    <li key={i}>{item}</li>
+                  ))}
+                </ul>
+              </div>
             </SwiperSlide>
           ))}
         </Swiper>

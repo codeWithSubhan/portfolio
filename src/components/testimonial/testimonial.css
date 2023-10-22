@@ -11,19 +11,25 @@
 }
 
 .testimonial__img {
-  width: 60px;
+  width: 45px;
+  height: 45px;
   border-radius: 3rem;
   margin-bottom: var(--mb-1);
+}
+.image__container {
+  display: flex;
+  gap: 10px;
 }
 
 .testimonial__name {
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-0-25);
+  text-transform: capitalize;
 }
 
 .testimonial__description {
-  font-size: var(--text-color);
+  font-size: var(--small-font-size);
 }
 
 /* swpier class mmanupulation  */
