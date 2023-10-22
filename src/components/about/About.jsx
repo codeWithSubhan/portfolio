@@ -1,6 +1,6 @@
-import AboutImg from '../../assests/subhan.png';
+import AboutImg from '../../assests/subhan.jpg';
 import Info from './Info';
-import CV from '../../assests/subhan.png';
+import CV from '../../assests/subhan.jpg';
 import './about.css';
 
 function About() {
