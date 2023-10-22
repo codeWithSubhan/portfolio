@@ -14,9 +14,9 @@ function Header() {
     <header className='header'>
       <div className='slow'>
         <nav className='nav container'>
-          <a href='index.html' className='nav__logo'>
+          <Link to='/' className='nav__logo'>
             subhan
-          </a>
+          </Link>
 
           <div className={Toggle ? 'nav__menu show-menu' : 'nav__menu'}>
             <ul className='nav__list grid'>
