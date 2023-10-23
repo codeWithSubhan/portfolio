@@ -8,6 +8,11 @@ import carrom from '../../assests/carrom.jpg';
 import kite from '../../assests/kite.jpg';
 import rubix from '../../assests/rubx.jpg';
 import ludo from '../../assests/ludo.jpg';
+import shinchan from '../../assests/shinchan.jpg';
+import perman from '../../assests/perman.jpeg';
+import oggy from '../../assests/oggy.jpg';
+import doreamon from '../../assests/doreamon.jpg';
+import hotori from '../../assests/hotori.jpeg';
 
 export const Data = [
   {
@@ -30,7 +35,7 @@ export const Data = [
   },
   {
     id: 3,
-    image: [candy, ludo, carrom, kite, rubix],
+    image: [shinchan, perman, oggy, doreamon, hotori],
     title: 'favorite Cartoons',
     description: [
       'shinchan 😍',

@@ -1,3 +1,4 @@
+import toast from 'react-hot-toast';
 import './contact.css';
 function Contact() {
   return (
@@ -47,7 +48,7 @@ function Contact() {
                 className='contact__button'
                 onClick={(e) => {
                   e.preventDefault();
-                  alert('actually I am working on it 😔');
+                  toast.error('I am working on it');
                 }}
               >
                 msg me
@@ -88,7 +89,13 @@ function Contact() {
               ></textarea>
             </div>
 
-            <button className='button button--flex'>
+            <button
+              className='button button--flex'
+              onClick={(e) => {
+                e.preventDefault();
+                toast.error('I am working on it');
+              }}
+            >
               Send Message
               <svg
                 className='button__icon'

@@ -1,6 +1,7 @@
 import Card from './Card';
 import data from './Data';
 import Tabs from './Tabs';
+
 function Portfolio() {
   return (
     <section className='section projects'>

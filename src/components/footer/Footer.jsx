@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import './footer.css';
+import toast from 'react-hot-toast';
 function Footer() {
   return (
     <footer className='footer'>
@@ -33,7 +34,7 @@ function Footer() {
             title='github'
             onClick={(e) => {
               e.preventDefault();
-              alert('I am working on it');
+              toast.error('I am working on it');
             }}
           >
             <i className='bx bxl-facebook'></i>
@@ -43,7 +44,7 @@ function Footer() {
             className='footer__social-link'
             onClick={(e) => {
               e.preventDefault();
-              alert('I am working on it');
+              toast.error('I am working on it');
             }}
           >
             <i className='bx bxl-linkedin'></i>
@@ -53,7 +54,7 @@ function Footer() {
             className='footer__social-link'
             onClick={(e) => {
               e.preventDefault();
-              alert('I am working on it');
+              toast.error('I am working on it');
             }}
           >
             <i className='bx bxl-twitter'></i>
