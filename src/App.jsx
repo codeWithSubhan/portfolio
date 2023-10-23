@@ -12,16 +12,13 @@ import Footer from './components/footer/Footer';
 import ScrollUp from './components/scrollUp/ScrollUp';
 import Testimonial from './components/testimonial/Testimonial';
 import toast, { Toaster } from 'react-hot-toast';
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 
 function App() {
-  const [toastShown, setToastShown] = useState(false);
   useEffect(() => {
-    if (!toastShown) {
-      toast('you are welcome', { icon: '😀' });
-      setToastShown(true);
-    }
-  }, [toastShown]);
+    toast('you are welcome', { icon: '😀' });
+  }, []);
+
   return (
     <>
       <BrowserRouter>
