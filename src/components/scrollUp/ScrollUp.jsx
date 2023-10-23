@@ -2,7 +2,7 @@ import './scrollUp.css';
 function ScrollUp() {
   window.addEventListener('scroll', function () {
     const scrollUp = document.querySelector('.scrollup');
-    if (this.scrollY >= 2000) scrollUp.classList.add('show-scroll');
+    if (this.scrollY >= 1000) scrollUp.classList.add('show-scroll');
     else scrollUp.classList.remove('show-scroll');
   });
   return (
