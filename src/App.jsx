@@ -16,7 +16,9 @@ import { useEffect } from 'react';
 
 function App() {
   useEffect(() => {
-    toast('you are welcome', { icon: '😀' });
+    setTimeout(() => {
+      toast('you are welcome', { icon: '👋' });
+    }, 2000);
   }, []);
 
   return (
