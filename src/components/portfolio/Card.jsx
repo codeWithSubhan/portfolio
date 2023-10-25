@@ -7,7 +7,7 @@ function Card({ data, no_container = false }) {
         <h2 className='section__title'>Portfolio</h2>
         <span className='section__subtitle'>My Projects</span>
         <div className='home_portfolio'>
-          {data.map((card, i) => (
+          {data?.map((card, i) => (
             <Link to='portfolio' key={i}>
               <div className='portfolio__card'>
                 <div className='image'>
@@ -24,11 +24,11 @@ function Card({ data, no_container = false }) {
   }
   return (
     <div className='home_portfolio'>
-      {data.map((card, i) => (
+      {data?.map((card, i) => (
         <a href={card.demo} rel='noreferrer' target='_blank' key={i}>
           <div className='portfolio__card'>
             <div className='image'>
-              <img src={i + '.PNG'} className='portfolio__img' />
+              <img src={card?.image} className='portfolio__img' />
             </div>
             <h3 className='portfolio__title '>{card.title}</h3>
             <span className='about__subtitle'>

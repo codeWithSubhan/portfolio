@@ -70,8 +70,8 @@ function Qualification() {
                 <span className='qualification__line'></span>
               </div>
               <div>
-                <h3 className='qualification__title'>BCOM</h3>
-                <span className='qualification__subtitle'>DU - Delhi</span>
+                <h3 className='qualification__title'>...</h3>
+                <span className='qualification__subtitle'>__ - Delhi</span>
                 <div className='qualification__calender'>
                   <i className='uil uil-calendar-alt'></i> 2021
                 </div>

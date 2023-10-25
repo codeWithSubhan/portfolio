@@ -92,6 +92,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  column-gap: 1px;
 }
 .search__icon {
   position: absolute;
