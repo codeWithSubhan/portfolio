@@ -341,6 +341,12 @@ const data = [
     demo: 'https://digital-colck.netlify.app/',
     code: 'https://github.com/codeWithSubhan/digital-clock-js',
   },
+  {
+    title: 'order pizza',
+    keyword: 'reactjs',
+    demo: 'https://fast-pizza-reactjs.netlify.app/',
+    code: 'https://github.com/codeWithSubhan/fast-pizza-app',
+  },
 ];
 
 export default data;
