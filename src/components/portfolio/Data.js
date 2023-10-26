@@ -92,6 +92,13 @@ const data = [
     code: 'https://github.com/codeWithSubhan/pizza-app-reacjs',
   },
   {
+    image: '58.PNG',
+    title: 'behind the scene',
+    keyword: 'reactjs',
+    demo: 'https://behind-the-scene-reactjs.netlify.app/',
+    code: 'https://github.com/codeWithSubhan/behind-the-scene-reactjs',
+  },
+  {
     image: '38.PNG',
     title: 'e-commerce',
     keyword: 'javascript',
