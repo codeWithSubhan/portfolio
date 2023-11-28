@@ -11,13 +11,8 @@ function Footer() {
 
         <ul className='footer__list'>
           <li>
-            <Link to='about' className='footer__link'>
-              About
-            </Link>
-          </li>
-          <li>
-            <Link to='portfolio' className='footer__link'>
-              Projects
+            <Link to='qualification' className='footer__link'>
+              Experience
             </Link>
           </li>
           <li>
@@ -25,17 +20,20 @@ function Footer() {
               Skills
             </Link>
           </li>
+          <li>
+            <Link to='portfolio' className='footer__link'>
+              Projects
+            </Link>
+          </li>
         </ul>
 
         <div className='footer__social'>
           <a
-            href='#'
+            href='https://www.facebook.com/profile.php?id=61553167987349'
             className='footer__social-link'
-            title='github'
-            onClick={(e) => {
-              e.preventDefault();
-              toast.error('I am working on it');
-            }}
+            title='facebook'
+            target='_blank'
+            rel='noreferrer'
           >
             <i className='bx bxl-facebook'></i>
           </a>

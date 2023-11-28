@@ -50,7 +50,7 @@ function Qualification() {
           >
             <div className='qualification__data'>
               <div>
-                <h3 className='qualification__title'>BCA Graduation</h3>
+                <h3 className='qualification__title'>BCA</h3>
                 <span className='qualification__subtitle'>Ignou - Delhi</span>
                 <div className='qualification__calender'>
                   <i className='uil uil-calendar-alt'></i> 2022

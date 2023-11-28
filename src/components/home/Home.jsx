@@ -16,19 +16,20 @@ const data = [
 
 function Home() {
   return (
-    <section className='home' id='home'>
-      <div className='home__container container grid'>
-        <div className='home__content grid'>
-          <Social />
-          <div className='home__img' title='This is Subhan'></div>
-          <Data />
+    <>
+      <section className='section home' id='home'>
+        <div className='home__container container grid'>
+          <div className='home__content grid'>
+            <Social />
+            <div className='home__img' title='This is Subhan'></div>
+            <Data />
+          </div>
+          {/* <ScrollDown /> */}
         </div>
-        {/* <ScrollDown /> */}
-      </div>
-
+      </section>
       <About />
       <Card data={data} />
-    </section>
+    </>
   );
 }
 
