@@ -61,6 +61,11 @@
     width: 220px;
     height: 220px;
   }
+
+  .slider_img {
+    width: 350px;
+    height: 220px;
+  }
 }
 .about__box {
   padding: 0.75rem 0.5rem;

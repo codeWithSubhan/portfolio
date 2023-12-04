@@ -29,7 +29,7 @@ function About() {
             {Data.map((img, i) => (
               <SwiperSlide key={i}>
                 {img === img7 || img === img8 ? (
-                  <video controls className='about__img'>
+                  <video className='about__img' controls>
                     <source src={img} type='video/mp4' />
                   </video>
                 ) : (
