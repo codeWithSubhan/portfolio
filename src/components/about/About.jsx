@@ -1,7 +1,21 @@
-import AboutImg from '../../assests/subhan.jpg';
+import img0 from '../../assests/subhan.jpg';
 import Info from './Info';
 import CV from '../../assests/subhan.pdf';
 import './about.css';
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+import 'swiper/css';
+
+import img1 from '../../assests/img1.jpg';
+import img2 from '../../assests/img2.jpg';
+import img3 from '../../assests/img3.jpg';
+import img4 from '../../assests/img4.jpg';
+import img5 from '../../assests/img5.jpg';
+import img6 from '../../assests/img6.jpg';
+import img7 from '../../assests/img7.mp4';
+import img8 from '../../assests/img8.mp4';
+
+const Data = [img0, img1, img2, img3, img4, img5, img6, img7, img8];
 
 function About() {
   return (
@@ -10,7 +24,21 @@ function About() {
       <span className='section__subtitle'>My Introduction</span>
 
       <div className='about__container container grid'>
-        <img src={AboutImg} alt='' className='about__img' />
+        <div className='slider_img'>
+          <Swiper spaceBetween={2} grabCursor={true}>
+            {Data.map((img, i) => (
+              <SwiperSlide key={i}>
+                {img === img7 || img === img8 ? (
+                  <video controls className='about__img'>
+                    <source src={img} type='video/mp4' />
+                  </video>
+                ) : (
+                  <img src={img} alt='' className='about__img' />
+                )}
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
 
         <div className='about__data'>
           <Info />
