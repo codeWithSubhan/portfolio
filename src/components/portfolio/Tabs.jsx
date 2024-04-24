@@ -1,17 +1,20 @@
 function Tabs({ query, handleQuery, handleTabs, activeTab = 'all' }) {
   return (
-    <div className='filter__section'>
-      <div className='work__filters'>
-        <div className='search__project'>
+    <div className="filter__section">
+      <div className="work__filters">
+        <div className="search__project">
           <input
-            type='text'
-            placeholder='search projects'
+            type="text"
+            placeholder="search projects"
             value={query}
             onChange={handleQuery}
           />
-          <i className='bx bx-search-alt-2 search__icon'></i>
+          <i className="bx bx-search-alt-2 search__icon"></i>
         </div>
-        <div className='search__tabs' onClick={handleTabs}>
+        <div
+          className="search__tabs"
+          onClick={handleTabs}
+        >
           <span
             className={`work__item ${
               activeTab == 'all' ? 'active__work' : ''
@@ -39,6 +42,13 @@ function Tabs({ query, handleQuery, handleTabs, activeTab = 'all' }) {
             } `}
           >
             Reactjs
+          </span>
+          <span
+            className={`work__item ${
+              activeTab == 'Typescript' ? 'active__work' : ''
+            } `}
+          >
+            Typescript
           </span>
           <span
             className={`work__item ${

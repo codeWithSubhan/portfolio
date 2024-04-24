@@ -14,12 +14,27 @@ import img5 from '../../assests/img5.jpg';
 import img6 from '../../assests/img6.jpg';
 import img7 from '../../assests/img7.mp4';
 import img8 from '../../assests/img8.mp4';
+import { useEffect, useState } from 'react';
 
 const Data = [img0, img1, img2, img3, img4, img5, img6, img7, img8];
 
 function About() {
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    const storedCount = parseInt(localStorage.getItem('pageVisits'));
+    if (!isNaN(storedCount)) {
+      setCount(storedCount);
+    }
+    setCount((prevCount) => prevCount + 1);
+  }, []);
+
+  useEffect(() => {
+    localStorage.setItem('pageVisits', count.toString());
+  }, [count]);
   return (
     <section className='about section' id='about'>
+      <p>Total Visits: {count}</p>
       <h2 className='section__title'>About Me</h2>
       <span className='section__subtitle'>My Introduction</span>
 

@@ -424,6 +424,13 @@ const data = [
     demo: 'https://digital-colck.netlify.app/',
     code: 'https://github.com/codeWithSubhan/digital-clock-js',
   },
+  {
+    image: '59.PNG',
+    title: 'card',
+    keyword: 'typescript',
+    demo: 'https://card-ts.netlify.app/',
+    code: 'https://github.com/codeWithSubhan/card-ts',
+  },
 ];
 
 export default data;
