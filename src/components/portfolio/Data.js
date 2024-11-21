@@ -432,9 +432,9 @@ const data = [
     code: "https://github.com/codeWithSubhan/card-ts",
   },
   {
-    image: "60.PNG",
+    image: "60.png",
     title: "break out game",
-    keyword: "reactjs",
+    keyword: "reactjs games",
     demo: "https://breakoutgame-reactjs.netlify.app/",
     code: "https://github.com/codeWithSubhan/Breakout-Game--reactjs",
   },
