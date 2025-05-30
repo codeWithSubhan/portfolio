@@ -305,7 +305,6 @@ const data = [
     demo: "https://circle-loader.netlify.app/",
     code: "https://github.com/codeWithSubhan/circle_loader",
   },
-
   {
     image: "17.PNG",
     title: "distortion effect",
@@ -437,6 +436,69 @@ const data = [
     keyword: "reactjs games",
     demo: "https://breakoutgame-reactjs.netlify.app/",
     code: "https://github.com/codeWithSubhan/Breakout-Game--reactjs",
+  },
+  {
+    image: "61.png",
+    title: "figma design",
+    keyword: "nextjs typescript",
+    demo: "https://nextjs-ts-figma.netlify.app/",
+    code: "https://github.com/codeWithSubhan/nextjs-ts-figma",
+  },
+  {
+    image: "62.png",
+    title: "curd operation redux-persist",
+    keyword: "nextjs typescript",
+    demo: "https://curd-operation-nextjs-ts-reduxpersist.netlify.app/",
+    code: "https://github.com/codeWithSubhan/curd-operation-nextjs14-redux-persist",
+  },
+  {
+    image: "63.png",
+    title: "redio card",
+    keyword: "reactjs",
+    demo: "https://01-interview-reactjs-figma.netlify.app/",
+    code: "https://github.com/codeWithSubhan/01-Interview",
+  },
+  {
+    image: "64.png",
+    title: "protect routes",
+    keyword: "reactjs",
+    demo: "https://protect-routes-reactjs.netlify.app/",
+    code: "https://github.com/codeWithSubhan/protect-routes-reactjs",
+  },
+  {
+    image: "65.png",
+    title: "device width",
+    keyword: "javascript",
+    demo: "https://device-with.netlify.app/",
+    code: "https://github.com/codeWithSubhan/device-with",
+  },
+  {
+    image: "66.png",
+    title: "static website",
+    keyword: "html/css",
+    demo: "https://device-with.netlify.app/",
+    code: "https://github.com/codeWithSubhan/device-with",
+  },
+  {
+    image: "67.png",
+    title: "curd operation localstorage",
+    keyword: "reactjs",
+    demo: "https://crud-localstorage-reactjs.netlify.app/",
+    code: "https://github.com/codeWithSubhan/crud-reactjs",
+  },
+  {
+    image: "68.png",
+    title: "tic tak toy",
+    keyword: "reactjs games",
+    demo: "https://reactjs-tic-tac-toy.netlify.app/",
+    code: "https://github.com/codeWithSubhan/tic-tac-toe-reactjs",
+  },
+  {
+    image: "69.png",
+    title: "todo list",
+    keyword: "reactjs",
+    demo: "https://to-do-list-reactsj.netlify.app/",
+    code: "https://github.com/codeWithSubhan/tic-tac-toe-reactjs",
   },
 ];
 
