@@ -73,7 +73,7 @@ const data = [
   {
     image: "32.PNG",
     title: "react quiz",
-    keyword: "reacjs games",
+    keyword: "reacjs",
     demo: "https://react-quiz-app-reactjs.netlify.app/",
     code: "https://github.com/codeWithSubhan/react-quiz-app-reactjs",
   },
@@ -151,7 +151,7 @@ const data = [
   {
     image: "14.PNG",
     title: "emoji eyes",
-    keyword: "javascript",
+    keyword: "javascript games",
     demo: "https://emoji-eyes.netlify.app/",
     code: "https://github.com/codeWithSubhan/emoji_eyes",
   },
@@ -319,13 +319,13 @@ const data = [
     demo: "https://bulb-switchon.netlify.app/",
     code: "https://github.com/codeWithSubhan/BULB",
   },
-  {
-    image: "53.PNG",
-    title: "ludo game",
-    keyword: "javascript games",
-    demo: "https://ludo-gme-js.netlify.app/",
-    code: "https://github.com/codeWithSubhan/Ludo_Game",
-  },
+  // {
+  //   image: "53.PNG",
+  //   title: "ludo game",
+  //   keyword: "javascript games",
+  //   demo: "https://ludo-gme-js.netlify.app/",
+  //   code: "https://github.com/codeWithSubhan/Ludo_Game",
+  // },
   {
     image: "52.PNG",
     title: "lover percentage",
@@ -499,6 +499,20 @@ const data = [
     keyword: "reactjs",
     demo: "https://to-do-list-reactsj.netlify.app/",
     code: "https://github.com/codeWithSubhan/tic-tac-toe-reactjs",
+  },
+  {
+    image: "70.png",
+    title: "Tetris Game",
+    keyword: "reactjs games",
+    demo: "https://tetris-reactjs.netlify.app/",
+    code: "https://github.com/codeWithSubhan/tetris-reactjs",
+  },
+  {
+    image: "71.png",
+    title: "Book App",
+    keyword: "reactjs",
+    demo: "https://book-app-curd-operation.netlify.app/",
+    code: "https://github.com/codeWithSubhan/book-app-curd-operation",
   },
 ];
 
